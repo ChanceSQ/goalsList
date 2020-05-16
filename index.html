@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/3533b755ae.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <title>Goals List</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="main">
+        <h1 class="card-title">My Goals</h1>
+        <form id="goal-form">
+          <label for="goal">New goal</label>
+          <input type="text" name="goal" id="goal" />
+          <input type="submit" value="Add goal" class="btn" />
+        </form>
+        <h5 id="goal-title">Goals</h5>
+        <input type="text" name="filter" id="filter" />
+        <label for="filter">Filter Goals</label>
+        <ul class="collection"></ul>
+        <a href="#" class="clear-goals btn">Clear Goals</a>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
